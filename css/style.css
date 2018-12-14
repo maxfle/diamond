@@ -3,11 +3,16 @@ position: relative;
   background: url("https://i.imgur.com/NAXRzKC.jpg");
   min-height: 400px; 
   width: 100%;
+  text-shadow: 2px 1px black;
   }
+
+#intro hr {
+    height: 10px;
+}
 
 #phone {
     font-size: 1.2rem;
-    text-shadow: 2px 1px black;
+    text-shadow: 2px 1px blazck;
 }
 
 #diamond {
@@ -37,9 +42,30 @@ position: relative;
 #videoPlay {
     position: relative;
     background-attachment: fixed;
-    background: url('https://images.unsplash.com/photo-1520931737576-7d1628862026?ixlib=rb-1.2.1&auto=format&fit=crop&w=1097&q=80');
+    background: url("https://images.unsplash.com/photo-1520931737576-7d1628862026?ixlib=rb-1.2.1&auto=format&fit=crop&w=1097&q=80");
     background-repeat: no-repeat;
     text-align: center;
     color: white;
     border-radius: 15px;
+}
+
+#news {
+    font-size: 1.5rem;
+}
+
+#main-footer hr {
+    height: 10px;
+}
+
+#sideNav {
+    height: 200px;
+}
+
+#sideNav span:hover {
+    color: black;
+    
+}
+
+.accordion {
+    width: 50px;
 }
