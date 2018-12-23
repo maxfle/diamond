@@ -69,3 +69,9 @@ position: relative;
 .accordion {
     width: 40px;
 }
+
+#doc {
+    position: relative;
+    height: 80%;
+    width: 80%;
+}
