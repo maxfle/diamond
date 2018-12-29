@@ -15,7 +15,7 @@
 
 <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-sm d-sm-none navbar-dark bg-primary p-0">
+    <nav class="navbar navbar-expand-md d-md-none navbar-dark bg-primary p-0">
         <div class="container">
             <a href="index.html" class="navbar-brand">Diamond</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -48,7 +48,7 @@
 
 <!-- Intro -->
 
-<section id="intro">
+<section id="intro" class="mb-5">
         <div class="row">
             <div id="diamond" class="col-md-4 text-primary pl-4 pt-3 mt-3">
                 <a href="index.html">Diamond</a>
@@ -86,115 +86,139 @@
                     </div>
                 </div>
             </div>
-            <hr class="bg-success">
         </div>
         
 </section>
 
-<!-- Cards -->
+<!-- Side Nav Accordion -->
 
-<section id="icon-boxes" class="p-5">
-        <div class="container">
-            <div class="row mb-10 justify-content-between">
-                <div class="col-md-2">
-                    <div class="card bg-success text-white text-center d-none d-lg-block">
-                        <div class="card-header">
-                            <a href="aboutUs.html" class="text-white">
-                            <h5>About <br> Us</h5>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1527181617732-cd814bc53892?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" class="card-img-bottom" id="zoom">
-                            </a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="card bg-success text-white text-center d-none d-lg-block">
-                        <div class="card-header">
-                            <a href="aboutDepression.html" class="text-white">
-                            <h5>About Depression</h5>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1536960242068-96914a09214c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" class="card-img-bottom" id="zoom">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="card bg-success text-white text-center d-none d-lg-block">
-                        <div class="card-header">
-                            <a href="aboutXYZTherapy.html" class="text-white">
-                            <h5>About XYZ Therapy</h5>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1532510825795-56d1b4c9b086?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" class="card-img-bottom" id="zoom">
-                        </a>
-                    </div>
-                </div>
-            
-                <div class="col-md-2">
-                    <div class="card bg-success text-white text-center d-none d-lg-block">
-                        <div class="card-header">
-                            <a href="neutrinoXYZ.html" class="text-white">
-                            <h5>Neutrino XYZ</h5>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1527409335569-f0e5c91fa707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" class="card-img-bottom" id="zoom">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="card bg-success text-white text-center d-none d-lg-block">
-                        <div class="card-header">
-                            <a href="medicalReferral.html" class="text-white">
-                            <h5>Medical Referral</h5>
-                        </div>
-                        <img src="https://images.unsplash.com/photo-1523430045879-9444a84c28eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" class="card-img-bottom" id="zoom">
-                        <a href="aboutUs.html" class="text-white"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-<!-- Welcome -->
-<section id="welcome" class="py-3">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-md-7 align-self-center">
-                <h3>Welcome to Diamond Neutrino Therapy</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt eius voluptates molestias voluptas illo fuga, magni, officiis praesentium natus, quia temporibus assumenda reprehenderit? Autem quia suscipit nihil facilis qui rerum. Consequatur odio in earum culpa, magnam at minus non eius sit maxime veritatis. Quo maiores officia doloremque rem adipisci eveniet nulla natus, recusandae illum quae ad saepe aperiam voluptas sint, aspernatur voluptate laborum soluta suscipit voluptatem ex tempore? Facere ratione quo laborum vitae perspiciatis dicta fugit ducimus tempora!</p>
-            </div>
-            <div id="videoPlay" class="col-md-4 ml-1">
-                <div class="container p-4">
-                    <a href="#" class="video" data-video="https://www.youtube.com/embed/HnwsG9a5riA" data-toggle="modal" data-target="#videoModal">
-                        <h2 class="text-danger">Learn More</h2>
-                        <i class="text-danger fab fa-youtube fa-2x"></i>
+<section class="sideNav">
+    <div class="col-md-3 mt-1 ml-5 pl-5 d-none d-md-block">
+        <div class="card bg-success border-dark mb-2">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <a href="index.html">
+                    <span class="text-dark">
+                        Home
+                    </span>
+                    <span class="">
+                        <i class="fas fa-arrow-circle-right text-dark float-right"></i>
+                    </span>
                     </a>
+                </h5>
+            </div>
+        </div>
+        <div class="card bg-success border-dark mb-2">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <a href="aboutUs.html" class="href">
+                    <span class="text-dark">
+                        About Us
+                    </span>
+                    <span class="">
+                        <i class="fas fa-arrow-circle-right text-dark float-right"></i>
+                    </span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+        <div class="card bg-success border-dark mb-2">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <a href="aboutDepression.html">
+                    <span class="text-dark">
+                        About Depression
+                    </span>
+                    <span class="">
+                        <i class="fas fa-arrow-circle-right text-dark float-right"></i>
+                    </span>
+                    </a>
+                </h5>
+            </div>
+            <div class="card-body bg-light border-dark mb-2">
+                <div class="btn btn-success text-dark border-dark btn-block active">
+                    Depression FAQs
+                </div>
+                <div class="btn btn-success text-dark border-dark btn-block">
+                    Depression Symptoms
+                </div>
+                <div class="btn btn-success text-dark border-dark btn-block">
+                    Treating Depression
+                </div>
+                <div class="btn btn-success text-dark border-dark btn-block">
+                    Depression and XYZ
+                </div>
+                <div class="btn btn-success text-dark border-dark btn-block">
+                    Resources
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12 text-center mt-4">
-                <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere necessitatibus cumque eligendi nihil exercitationem? Dolore placeat nam beatae repellendus distinctio? Voluptatem consequatur quaerat pariatur nam maiores nihil fugiat laudantium dolores.</strong>
+        <div class="card bg-success border-dark mb-2">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <a href="aboutXYZTherapy.html">
+                    <span class="text-dark">
+                        About XYZ Therapy
+                    </span>
+                    <span class="">
+                        <i class="fas fa-arrow-circle-right text-dark float-right"></i>
+                    </span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+        <div class="card bg-success border-dark mb-2">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <a href="neutrinoXYZ.html">
+                    <span class="text-dark">
+                        Neutrino Treatment 
+                    </span>
+                    <span class="">
+                        <i class="fas fa-arrow-circle-right text-dark float-right"></i>
+                    </span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+        <div class="card bg-success border-dark">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <a href="medicalReferral.html">
+                    <span class="text-dark">
+                        Medical Referral
+                    </span>
+                    <span class="">
+                        <i class="fas fa-arrow-circle-right text-dark float-right"></i>
+                    </span>
+                    </a>
+                </h5>
+            </div>
+        </div>
+        <div class="card bg-white text-center card-form mt-5 border-dark">
+            <div class="card-body">
+                <h3>Contact Us:</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" Placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" Placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control form-control-lg" Placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control form-control-lg" Placeholder="Your Message"></textarea>
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
+                </form>
             </div>
         </div>
     </div>
 </section>
 
-<!-- News -->
 
-<section id="news" class="mt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center text-dark">
-                <strong>We're kinda famous!</strong>
-            </div>
-        </div>
-        <div class="row py-3 mb-3">
-            <div class="col-md-12 text-center">
-                <button class="btn-primary btn-block rounded">
-                    We were on the news! Click here for the link!
-                </button>
-            </div>
-            
-        </div>
-    </div>
-</section>
 
 <!-- Footer -->
 
@@ -258,25 +282,15 @@
         </div>
     </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>    
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>    
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script>
     // get the current year for the copyright
     $('#year').text(new Date().getFullYear());
-    // videoPlay
-     $(function() {
-        // Auto play modal video
-        $(".video").click(function () {
-            var theModal = $(this).data("target"),
-                videoSRC = $(this).attr("data-video"),
-                videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-            $(theModal + ' iframe').attr('src', videoSRCauto);
-            $(theModal + ' button.close').click(function() {
-                $(theModal + ' iframe').attr('src', videoSRC);
-            });
-        });
-    });
 </script>
 </body>
 </html>
